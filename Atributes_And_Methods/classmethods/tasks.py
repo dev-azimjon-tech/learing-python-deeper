@@ -1,4 +1,4 @@
-#Task 1
+# #Task 1
 # class Book:
 #     def __init__(self, title, author):
 #         self.title = title
@@ -19,7 +19,7 @@
 # print(book1.display_info())
 # print(book2.display_info())
 
-# Task 2
+# #Task 2
 # class Student:
 #     students = 0
 
@@ -36,7 +36,7 @@
 
 # print(Student.count_all_studets())
 
-#Task 3
+# #Task 3
 # class App:
 #     version = "1.0.0"
 
@@ -46,7 +46,7 @@
 
 # App.show_version()
 
-#Task 4
+# #Task 4
 # class Person:
 #     @classmethod
 #     def get_category_by_age(cls, age):
