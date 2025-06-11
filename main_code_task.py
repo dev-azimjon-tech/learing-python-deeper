@@ -140,3 +140,76 @@
 #     print(vehicle.display_info())
 
 # print(Vehicle.kmh_to_mph(200))
+
+
+# Task 4
+# class FoodItem:
+#     def __init__(self, name : str, price : int) -> None:
+#         self.name : str = name
+#         self.price : int = price
+    
+#     def prepare(self) -> str:
+#         return f"Food: {self.name} and it's price: {self.price}"
+
+# class Pizza(FoodItem):
+#     def __init__(self, name, price):
+#         super().__init__(name, price)
+
+#     def prepare(self):
+#         return super().prepare()
+    
+# class Burger(FoodItem):
+#     def __init__(self, name, price):
+#         super().__init__(name, price)
+
+#     def prepare(self):
+#         return super().prepare()
+    
+# class Salad(FoodItem):
+#     def __init__(self, name, price):
+#         super().__init__(name, price)
+
+#     def prepare(self):
+#         return super().prepare()
+
+# pizza = Pizza("Pizaa", 200)
+# burger = Burger("Burger",160)
+# salad = Salad("Salad", 90)
+
+# print(pizza.prepare())
+# print(burger.prepare())
+# print(salad.prepare())
+
+# Task 5
+# class Room:
+#     def __init__(self, room_number : int, price_per_knight : int) -> None:
+#         self.room_number : int = room_number
+#         self.price_per_knight : int = price_per_knight
+
+#     def get_details(self):
+#         return f"Room number: {self.room_number}, and price for per knight: {self.price_per_knight}"
+    
+
+# class SingleRoom(Room):
+#     def __init__(self, room_number, price_per_knight, has_tv):
+#         super().__init__(room_number, price_per_knight)
+#         self.has_tv = has_tv
+
+#     def get_details(self):
+#         return f"{super().get_details()} And it has: {self.has_tv}"
+
+# class DoubleRoom(Room):
+#     def __init__(self, room_number, price_per_knight, has_balcony):
+#         super().__init__(room_number, price_per_knight)
+#         self.has_balcony = has_balcony
+
+#     def get_details(self):
+#         return f"{super().get_details()} And it has: {self.has_balcony}"
+        
+
+# singleroom = SingleRoom(2312, 100, "Tv")
+# doubleroom = DoubleRoom(321, 200, "Balcony")
+
+# print(singleroom.get_details())
+# print(doubleroom.get_details())
+
