@@ -1,5 +1,5 @@
 import types
-from main import bot, send_welc, echo
+from main import welcome, echo
 
 class FakeMessage:
     def __init__(self, text, chat_id=10):
@@ -8,7 +8,7 @@ class FakeMessage:
 
     def test_start_command():
         msg = FakeMessage("/start")
-        response = send_welc(msg)
+        response = welcome(msg)
         assert response is None
 
     def test_echo_msg():
